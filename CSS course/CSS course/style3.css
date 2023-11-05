@@ -1,0 +1,38 @@
+p.text:not(empty){
+    color:gray;
+}
+
+
+.main-link {
+    color:red;
+    text-decoration: none; /*для подчеркиваний. none - без подчеркиваний)*/
+
+}
+
+.main-link:hover {
+    color:blue;
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+}
+
+.main-link:active {
+    text-decoration: line-through;
+}
+
+.main-link:visited {
+    color:grey;
+}
+
+input { 
+    color:blue;
+}
+
+input:focus{
+    color:red
+}
+
+/* input:disabled{
+   обращение к тем полям ввода которые неактивны
+} */
+

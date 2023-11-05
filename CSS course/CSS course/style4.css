@@ -1,0 +1,28 @@
+#some_id::after {
+    content:'123';
+    color:red;
+}
+
+#some_id::before {
+    content: '123';
+    color:green;
+}
+
+
+p.text:not(:empty)::after {
+    content:'once told me the world is gonna roll me';
+}
+
+/* обращение к первому символу */
+p.text::first-letter{
+    color: blue;
+}
+
+/* выводится не текст, а значение подсказки(текст подсказки) */
+p.text2:not(:empty)::after {
+    content: attr(title);
+}
+
+p:first-of-type {
+    text-decoration: line-through;
+}

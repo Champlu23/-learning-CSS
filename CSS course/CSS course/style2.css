@@ -1,0 +1,16 @@
+.main-text {
+    color:red;
+}
+
+#text-in-p {
+    color:blue;
+}
+
+div b, div i {
+    color:green;
+}
+
+/* Можно и так: */
+/* div, name-class, #id, div p {
+    color:red;
+}*/

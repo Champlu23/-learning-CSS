@@ -1,0 +1,28 @@
+/* для всех объектов удаляем отступы */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* 
+body{
+    display: flex;
+} */
+
+.block {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+
+#first {
+    float: left;
+    background:red;
+}
+
+#second{
+    float:  right;
+    background:blue;
+}
